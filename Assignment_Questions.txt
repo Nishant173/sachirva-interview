@@ -1,0 +1,46 @@
+Assignments:
+
+1. Question - 1
+	data_input =   {
+					 'a.b.c.d': (1,2),
+					 'a.b.c.e': (3,2),
+					 'a.b.f.g': (4,2),
+					 'a.h.i.j': (5,2),
+					 'm.n.o.p': (6,2),
+					 'm.x.y.z': (7,2)
+				   }
+
+	# Break the nodes and assign values as shown below
+
+	data_output = {
+				   'a':
+					   {
+						 'b':
+							 {
+							   'c':
+								   {
+									 'd': (1,2),
+									 'e': (3,2)
+								   },
+							   'f.g': (4,2)
+							 },
+						 'h.i.j': (5,2)
+					   },
+				   'm':
+					   {
+						 'n.o.p': (6,2),
+						 'x.y.z': (7,2)
+					   }
+				  }
+
+2. Question - 2
+	# Write a method to find the number of ways to climb 'N' stairs, considering below conditions
+		1. You can climb 1 step at a time
+		2. You can climb 2 steps at a time
+
+3. Question - 3
+	Create an app, which exposes  4 APIs, the output of each API is explained below
+		1. GET API - This API fetches values from DB based query parameter
+		2. POST API - Update the value in DB based  on the data passed in payload
+		3. PUT API - Insert a record inside the DB, that has passed in the payload
+		4. DELETE API - Delete a record from the db, that has been passed in the payload
